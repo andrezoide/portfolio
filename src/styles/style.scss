@@ -1,0 +1,40 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.div-painel {
+  height: 250px;
+  background-color: rgba(165, 42, 42, 0.596);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.div-painel img {
+  position: relative;
+  top: 15%;
+  right: 48%;
+  height: 175px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.div-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 10px;
+  /* Adicione o espaçamento desejado entre os botões */
+}
+
+.div-content Link {
+  margin-right: 5px;
+  /* Adicione o espaçamento desejado entre os botões */
+}
